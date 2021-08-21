@@ -9,8 +9,8 @@
 #define BLED D0
 
 MFRC522 mfrc522(D4, D3);
-const char* ssid = "home";
-const char* password =  "34275767";
+const char* ssid = "YOUR SSID";
+const char* password =  "YOUR PASSWORD";
 const char* mqtt_server = "192.168.1.106";
 const int mqtt_port = 1883;
 int temperature=0;
